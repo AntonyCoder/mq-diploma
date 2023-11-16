@@ -1,0 +1,52 @@
+/* Шапка сайта */
+
+.header {
+    background-image: url(/images/banner-bg-tablet.jpg);
+}
+
+.title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+.nav {
+    display: none;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu::after {
+    content: "";
+    background-image: url("/images/burger-menu.png");
+    background-size: cover;
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 15%;
+    right: 0;
+}
+
+
+/* Блок сейчас в тренде */
+
+.trends-wrp {
+    justify-content: center;
+}
+
+.trend-item {
+    width: 95%;
+}
+
+/* Основной блок */
+
+.main__section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-image {
+    margin-right: 0;
+}
