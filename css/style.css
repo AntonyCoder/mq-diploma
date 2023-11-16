@@ -5,9 +5,9 @@
     font-style: normal;
     font-weight: normal;
     src: local('OpenSans'),
-    url(/fonts/OpenSans-Regular.ttf) format('ttf'),
-    url(/fonts/OpenSans-Regular.woff) format('woff'),
-    url(/fonts/OpenSans-Regular.woff2) format('woff2');
+    url(../fonts/OpenSans-Regular.ttf) format('ttf'),
+    url(../fonts/OpenSans-Regular.woff) format('woff'),
+    url(../fonts/OpenSans-Regular.woff2) format('woff2');
   }
 
   /* Жирный */
@@ -17,9 +17,9 @@
     font-style: normal;
     font-weight: bold;
     src: local('OpenSans'),
-    url(/fonts/OpenSans-Bold.ttf) format('ttf'),
-    url(/fonts/OpenSans-Bold.woff) format('woff'),
-    url(/fonts/OpenSans-Bold.woff2) format('woff2');
+    url(../fonts/OpenSans-Bold.ttf) format('ttf'),
+    url(../fonts/OpenSans-Bold.woff) format('woff'),
+    url(../fonts/OpenSans-Bold.woff2) format('woff2');
   }
   
 /* Общие стили */
@@ -51,7 +51,7 @@
   /* шапка сайта */
   
   .header {
-    background-image: url(/images/banner-bg.jpg);
+    background-image: url(../images/banner-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -179,25 +179,25 @@
   }
 
 .trend-item1 {
-    background-image: url(/images/trend1.jpg);
+    background-image: url(../images/trend1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .trend-item2 {
-    background-image: url(/images/trend2.jpg);
+    background-image: url(../images/trend2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .trend-item3 {
-    background-image: url(/images/trend3.jpg);
+    background-image: url(../images/trend3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .trend-item4 {
-    background-image: url(/images/trend4.jpg);
+    background-image: url(../images/trend4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -401,7 +401,7 @@
     width: 48px;
     border: none;
     background-color: #b59f5b;
-    background-image: url(/svg/search.svg);
+    background-image: url(../svg/search.svg);
     background-repeat: no-repeat;
     background-size: 18px;
     background-position: center center;
@@ -617,20 +617,20 @@
     position: relative;
     top: 2px;
     left: 5px;
-    background-image: url(/svg/001-dribbble.svg);
+    background-image: url(../svg/001-dribbble.svg);
   }
   
   .social-link-pinterest {
     position: relative;
     top: 2px;
     left: 4px;
-    background-image: url(/svg/002-pinterest.svg);
+    background-image: url(../svg/002-pinterest.svg);
   }
   
   .social-link-tumblr {
     position: relative;
     top: 2px;
-    background-image: url(/svg/003-tumblr.svg);
+    background-image: url(../svg/003-tumblr.svg);
   }
   
   .copyright {

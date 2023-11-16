@@ -1,7 +1,7 @@
 /* Шапка сайта */
 
 .header {
-    background-image: url(/images/banner-bg-tablet.jpg);
+    background-image: url(../images/banner-bg-tablet.jpg);
 }
 
 .title {
@@ -19,7 +19,7 @@
 
 .menu::after {
     content: "";
-    background-image: url("/images/burger-menu.png");
+    background-image: url("../images/burger-menu.png");
     background-size: cover;
     display: block;
     width: 35px;
